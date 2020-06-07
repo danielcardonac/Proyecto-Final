@@ -1,0 +1,20 @@
+<%- include("parshal/header"); -%>
+
+  <h1>Añadir Producto</h1>
+  <form class="" action="/find" method="post">
+      <div class="form-group">
+        <label>Encontrar por:</label>
+        <select  name="escogido">
+          <option value="ID">ID</option>
+          <option value="Precio">Precio</option>
+        </select>
+        <label>Ingresa el valor a encontrar</label>
+        <input class="form-control" type="text" name="valorEncontar">
+
+      </div>
+      <button class="btn btn-primary" type="submit" name="button">Buscar</button>
+    </form>
+
+
+
+<%- include("parshal/footer"); -%>

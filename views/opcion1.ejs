@@ -1,0 +1,12 @@
+<%- include("parshal/header"); -%>
+    <h1>Opción 1</h1>
+    <%  for (var i = 0; i < productos.length; i++) { %>
+
+    <h3><%=productos[i]%></h3>
+      <h4>
+      <%='$' + precios[i] %>
+    </h4>
+  <% } %>
+
+
+<%- include("parshal/footer"); -%>
